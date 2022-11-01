@@ -29,11 +29,11 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
         
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '16.x'
+      # - uses: actions/setup-node@v1
+      #  with:
+      #    node-version: '16.x'
       
-      - run: yarn add -D cspell
+      - run: yarn add cspell
       
       # - run: yarn install
       #  env:

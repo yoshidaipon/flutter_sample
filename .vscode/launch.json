@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "production",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=BUILD_ENV=prod"
+            ]
+        },
+        {
+            "name": "staging",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=BUNDLE_ID_SUFFIX=.stg",
+                "--dart-define=BUILD_ENV=stg"
+            ]
+        },
+        {
+            "name": "develop",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=BUNDLE_ID_SUFFIX=.dev",
+                "--dart-define=BUILD_ENV=dev"
+            ]
+        },
+        {
+            "name": "local",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=BUNDLE_ID_SUFFIX=.local",
+                "--dart-define=BUILD_ENV=local"
+            ]
+        }
+    ]
+}

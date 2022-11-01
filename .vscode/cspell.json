@@ -1,0 +1,52 @@
+{
+    "enabledLanguageIds": [
+        "dart"
+    ],
+    "ignoreRegExpList": [
+        "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"
+    ],
+    "words": [
+        "ABCDEFGHIJKLMNOPQRSTUVXYZ",
+        "Animatable",
+        "ARGB",
+        "booklista",
+        "chargezero",
+        "coinhistory",
+        "Cupertino",
+        "datatransfer",
+        "Diagnosticable",
+        "Disp",
+        "easyloading",
+        "episodeslist",
+        "Favorited",
+        "fetchable",
+        "fullscreen",
+        "IDFV",
+        "LTRB",
+        "mypage",
+        "ncdev",
+        "newcomic",
+        "nodoc",
+        "noopen",
+        "notificationsettings",
+        "Noto",
+        "readed",
+        "RGBO",
+        "riverpod",
+        "SSAID",
+        "storagemanagement",
+        "sublist",
+        "termsofuseandothers",
+        "textstyle",
+        "udid",
+        "utsname",
+        "vsync",
+        "waitfree"
+    ],
+    "ignorePaths": [
+        "**/.dart_tools/**",
+        "**/hosted/**",
+        "**/.pub-cache/**",
+        ".vscode"
+    ]
+}

@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: '16.x'
       
-      - run: yarn add cspell
+      - run: yarn add -D cspell
       
       - run: yarn install
         env:
@@ -53,4 +53,4 @@ jobs:
       #  run: flutter test test
 
       - name: Run cspell
-        run: cspell -c .vscode/cspell.json lib/**/*
+        run: yarn cspell lint -c .vscode/cspell.json lib/**/*
